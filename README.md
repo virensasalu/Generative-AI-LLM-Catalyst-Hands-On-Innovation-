@@ -68,8 +68,8 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com//yourrepo.git
-   cd yourrepo
+   git clone https://github.com/virensasalu/Generative-AI-LLM-Catalyst-Hands-On-Innovation-.git
+   cd Generative-AI-LLM-Catalyst-Hands-On-Innovation-
 2. **Install Requirement**
    ```bash
    pip install -r requirements.txt
