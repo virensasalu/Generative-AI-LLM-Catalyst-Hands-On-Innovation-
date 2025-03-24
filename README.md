@@ -43,9 +43,6 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
 ├── requirements.txt                  # Python dependencies  
 ├── README.md                         # This file  
 
-
-
-
 ---
 
 ## Features
@@ -73,16 +70,18 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
    ```bash
    git clone https://github.com//yourrepo.git
    cd yourrepo
-2. pip install -r requirements.txt
-
-3. conda env create -f environment.yml
-
-4. conda activate <env-name>
-
-export OPENAI_API_KEY="your-openai-api-key"
-
+2. **Install Requirement**
+   ```bash
+   pip install -r requirements.txt
+3. **Or Create Conda Environment**
+   ```bash
+   conda env create -f environment.yml
+   conda activate <env-name>
+4. **SetUp OpenAI API Key as environment variable**
+   ```bash
+   export OPENAI_API_KEY="your-openai-api-key"
 
 ### Contact
-	•	**Author**: Your Name (or Organization)
-	•	**Email**: your.email@example.com
-	•	**GitHub**: @yourusername
+	•	**Author**: Viren Sasalu, Aastha Prasad
+	•	**Email**: virensasalu@gmail.com, 20aasthaprasad@gmail.com
+	•	**GitHub**: @virensasalu, @20mausam
