@@ -37,11 +37,11 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
 
 ## Project Structure
   
-├── ollama_summarize_webpage.ipynb    # Notebook for local LLM summarization  
-├── openai_summarize_webpage.ipynb    # Notebook for OpenAI-based summarization  
-├── tech_qna_chatbot.ipynb            # Notebook for a Gradio-based tech Q&A chatbot  
-├── requirements.txt                  # Python dependencies  
-├── README.md                         # This file  
+├── ollama_summarize_webpage.ipynb  
+├── openai_summarize_webpage.ipynb  
+├── tech_qna_chatbot.ipynb  
+├── requirements.txt  
+├── README.md  
 
 ---
 
