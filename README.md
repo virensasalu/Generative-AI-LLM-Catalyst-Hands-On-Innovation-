@@ -81,6 +81,7 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
    ```bash
    export OPENAI_API_KEY="your-openai-api-key"
 
+### Gardio UI for Question and Answers AI-Agent
 
 ![image](https://github.com/user-attachments/assets/95fbf94c-c843-4489-a97e-39dbdf58ea76)
 
