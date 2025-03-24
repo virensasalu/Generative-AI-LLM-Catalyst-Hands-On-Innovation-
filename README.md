@@ -82,6 +82,6 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
    export OPENAI_API_KEY="your-openai-api-key"
 
 ### Contact
-	•	**Author**: Viren Sasalu, Aastha Prasad
-	•	**Email**: virensasalu@gmail.com, 20aasthaprasad@gmail.com
-	•	**GitHub**: @virensasalu, @20mausam
+**Author**: Viren Sasalu, Aastha Prasad
+**Email**: virensasalu@gmail.com, 20aasthaprasad@gmail.com
+**GitHub**: @virensasalu, @20mausam
