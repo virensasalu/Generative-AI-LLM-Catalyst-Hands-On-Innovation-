@@ -36,12 +36,22 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
 ---
 
 ## Project Structure
-  
-├── ollama_summarize_webpage.ipynb  
-├── openai_summarize_webpage.ipynb  
-├── tech_qna_chatbot.ipynb  
-├── Meeting Minutes product.ipynb  
+
+├── RAG  
+   ├── knowledge-base  
+      ├── data  
+   ├── vector_db  
+   ├── brute_force_rag.ipynb  
+   ├── rag_chroma.ipynb  
+   ├── rag_faiss.ipynb  
+├── frontier_aiagents  
+   ├── ollama_summarize_webpage.ipynb  
+   ├── openai_summarize_webpage.ipynb  
+   ├── tech_qna_chatbot.ipynb  
+   ├── meeting_minutes_product.ipynb
+   ├── tech_qna_chatbot.ipynb
 ├── requirements.txt  
+├── image.png
 ├── README.md  
 
 ---
