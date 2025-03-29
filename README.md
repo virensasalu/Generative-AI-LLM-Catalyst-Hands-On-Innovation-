@@ -1,6 +1,6 @@
 # Project Title: Generative AI & LLM Catalyst: Hands-On Innovation 
 
-A collection of Jupyter notebooks demonstrating how to **summarize webpages** and create a **tech Q&A chatbot** using both **OpenAI** and **Ollama** (local LLM).
+A collection of Jupyter notebooks demonstrating how to **summarize webpages** and create a **tech Q&A chatbot** using both **OpenAI** and **Ollama** (local LLM) and implement **RAG (Retrieval-Augmented Generation)** using both **OpenAI** and **Ollama (local LLMs)**.
 
 ---
 
@@ -13,9 +13,10 @@ A collection of Jupyter notebooks demonstrating how to **summarize webpages** an
    - [Prerequisites](#prerequisites)  
    - [Installation](#installation)  
 5. [Usage](#usage)  
-   - [1. Summarizing with OpenAI](#1-summarizing-with-openai)  
-   - [2. Summarizing with Ollama](#2-summarizing-with-ollama)  
-   - [3. Tech Q&A Chatbot](#3-tech-qna-chatbot)  
+   - [1. Webpage Summarization](#1-webpage-summarization)  
+   - [2. Tech Q&A Chatbot](#2-tech-qa-chatbot)  
+   - [3. Meeting Minutes Generator](#3-meeting-minutes-generator)  
+   - [4. RAG Approaches](#4-rag-approaches)  
 6. [Notebook Details](#notebook-details)  
 7. [Troubleshooting](#troubleshooting)  
 8. [Contributing](#contributing)  
@@ -30,6 +31,7 @@ This repository showcases **multiple approaches** to leveraging Large Language M
 
 - Summarizing text from webpages
 - Answering technical questions in a chatbot-like interface
+- Implementing Retrieval-Augmented Generation (RAG) pipelines using different vector databases
 
 You can choose between **OpenAI** (using their API) or **Ollama** (running a local LLM, like LLaMA or other models) depending on your needs and constraints.
 
@@ -38,20 +40,20 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
 ## Project Structure
 
 ├── RAG  
-   ├── knowledge-base  
-      ├── data  
-   ├── vector_db  
-   ├── brute_force_rag.ipynb  
-   ├── rag_chroma.ipynb  
-   ├── rag_faiss.ipynb  
+├  ├── knowledge-base  
+├  ├── data  
+├  ├── vector_db  
+├  ├── brute_force_rag.ipynb  
+├  ├── rag_chroma.ipynb  
+├  ├── rag_faiss.ipynb  
 ├── frontier_aiagents  
-   ├── ollama_summarize_webpage.ipynb  
-   ├── openai_summarize_webpage.ipynb  
-   ├── tech_qna_chatbot.ipynb  
-   ├── meeting_minutes_product.ipynb
-   ├── tech_qna_chatbot.ipynb
+├  ├── ollama_summarize_webpage.ipynb  
+├  ├── openai_summarize_webpage.ipynb  
+├  ├── tech_qna_chatbot.ipynb  
+├  ├── meeting_minutes_product.ipynb  
+├  ├── tech_qna_chatbot.ipynb  
 ├── requirements.txt  
-├── image.png
+├── image.png  
 ├── README.md  
 
 ---
@@ -63,6 +65,10 @@ You can choose between **OpenAI** (using their API) or **Ollama** (running a loc
 - **OpenAI API**: Summarize text using OpenAI’s GPT models (requires an API key).
 - **Tech Q&A Chatbot**: A simple interface that lets you ask technical questions and get answers in real time.
 - **Meeting Minutes Generator**: Upload or record audio to generate transcriptions and structured meeting notes.
+- **RAG Implementations**:  
+	•	`brute_force_rag.ipynb`: Simple document search via cosine similarity.
+	•	`rag_chroma.ipynb`: Uses ChromaDB for fast vector-based retrieval.
+	•	`rag_faiss.ipynb`: Implements RAG with Facebook’s FAISS for efficient similarity search.
 
 ---
 
@@ -113,6 +119,11 @@ Use `tech_qna_chatbot.ipynb` to ask and answer technical questions using OpenAI.
 
 ### 4. Meeting Minutes Generator
 Use `meeting-minutes_product.ipynb` to upload or record audio and automatically transcribe and structure meeting notes.
+
+### 5. RAG Approaches
+- `brute_force_rag.ipynb` – Implements a basic RAG pipeline without vector embeddings  
+- `rag_chroma.ipynb` – Uses ChromaDB to store and retrieve embeddings for efficient and scalable document retrieval.  
+- `rag_faiss.ipynb` – Leverages Facebook’s FAISS library for high-speed similarity search and dense vector indexing in a RAG setup.  
 
 
 ### Contact
